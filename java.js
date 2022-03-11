@@ -25,3 +25,5 @@ if (saveusername===null){
 } else{
     paintGreeting(saveusername);
 }
+
+console.log("hello")
