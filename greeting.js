@@ -28,6 +28,4 @@ if (saveusername===null){
     
 }
 
-console.log("hello")
-
-}
+console.log("hello");
