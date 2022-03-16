@@ -23,7 +23,6 @@ if (saveusername===null){
     loginForm.classList.remove(HIDDEN);
     loginForm.addEventListener("submit", onLoginSubmit);
 } else{
+    loginForm.classList.add(HIDDEN);
     paintGreeting(saveusername);
 }
-
-console.log("hello")
